@@ -1,0 +1,100 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 2;
+}
+
+li {
+  font-size: 15px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.container {
+  display: block;
+  margin: 100px auto;
+  padding: 20px;
+  background-image: url("../images/aurora.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(7, 73, 78, 0.8);
+}
+
+.img-today {
+  position: relative;
+  width: 125px;
+}
+
+.card-img-top {
+  width: 48px;
+  height: 48px;
+}
+
+.card-body {
+  max-width: 70%;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.card-body:hover {
+  transform: scale(1.1);
+}
+
+.col {
+  flex: 1 1 0%;
+  margin-left: 50px;
+}
+
+.day {
+  font-size: 24px;
+}
+
+.date {
+  font-style: italic;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.temp-day {
+  font-size: 24px;
+}
+
+.temp-night {
+  font-size: 18px;
+  color: midnightblue;
+}
+
+.units {
+  position: relative;
+  top: -10px;
+}
